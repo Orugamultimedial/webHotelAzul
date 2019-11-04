@@ -1,0 +1,667 @@
+﻿<!DOCTYPE html>
+
+<head>
+    <!--HEAD-->
+    <html lang="es">
+    <meta name="viewport" content="initial-scale=3">
+    <!--meta name="viewport" content="width=1300,max-width=1300"-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Cache-Control" content="Public">
+    <meta name="robots" content="index, follow">
+    <title>Hotel Azul</title>
+    <meta name="description" content="hotel alojamiento">
+    <meta property="og:url" content="http://www.azulhotelspa.com">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Hotel azul obera misiones">
+    <meta property="og:description" content="">
+    <!--estilos_hotelazul.css-->
+    <link rel="stylesheet" href="css/estilos_hotelazul.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <link rel="shortcut icon" href="./img/logo_footer2-colorazul.png">
+
+    <link rel="icon" type="image/png" href="./img/logo_footer2-colorazul.png">
+
+    <script src="js/Funciones_hotelazul.js"></script>
+</head>
+
+<body>
+    <!--ANIMACION DE CARGA-->
+    <div class="neo_loader">
+        <img src="img/logo_footer2-colorazul.png" alt="Hotel Azul - Oberá">
+        <div class="loadername">Hotel Azul - Oberá</div>
+        <div class="loaderline">
+            <div class="linear-activity gray">
+                <div class="indeterminate"></div>
+            </div>
+        </div>
+    </div>
+    <!--FIN ANIMACION DE CARGA-->
+
+    <div class="neo_megacontainer">
+        <div id="content">
+            <!--ANIMACION MIS RESERVAS-->
+            <div id="ContainerRD" class="nodisplay">
+                <div class="flex flex-center fullheight">
+                    <div id="ContainerRDInner">
+                        <div id="Loader" class="fullheight flex flex-center">
+                            <img class="animated slideInUp" src="http://bildbearbeitung.onl/images/ui/load1.gif">
+                        </div>
+                        <div id="CloseRDContainer">
+                            <i class="fa fa-times" aria-hidden="true"></i>
+                        </div>
+                        <iframe style="width:100%;height:100%" src="" id="IframeRD" scrolling="no"></iframe>
+                    </div>
+                </div>
+            </div>
+            <!--FIN ANIMACION MIS RESERVAS-->
+
+            <!--MIS RESERVAS-->
+            <div class="ModuloWrap_top_menu">
+                <div id="top_menu">
+                    <div id="contenedor_top">
+                        <div id="menu_div_top">
+                            <div class="nav_top">
+                                <div style="display:none" id="loaderTextDefault">Buscando</div>
+                                <div class="Sesion_top">
+                                    <a href="https://www.booking.com/hotel/ar/azul-apart-amp-spa.es.html?aid=376374;label=esrow-OtlvhU2CXhSVxek50Z_17wS267754636760%3Apl%3Ata%3Ap1%3Ap22.475.000%3Aac%3Aap1t1%3Aneg%3Afi%3Atiaud-294889294453%3Akwd-65526620%3Alp9040999%3Ali%3Adec%3Adm;sid=0db38b9b85aa9e47677305526dee5138;dest_id=-1005883;dest_type=city;dist=0;hapos=13;hpos=13;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1562096089;srpvid=63a089acb2bd0126;type=total;ucfs=1&#hotelTmpl"
+                                        ignorar-vista="true" target="_blank" class="btn_sesion">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i> Mis Reservas
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--FIN MIS RESERVAS-->
+
+            <!--TELEFONO TOP-->
+            <div class="teltop">
+                <div class="icono">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                </div>
+                <div class="texto">+54 (03755) 405840</div>
+                <!--FIN TELEFONO TOP-->
+                <br>
+                <br>
+                <!--ICONOS-->
+                <div class="container">
+                    <div class="row paddingtoptwentyfive left">
+                        <img src="img/icon_24hs.png" alt="icon 24hs" width="40px" style="padding-left: 10px;" title="Recepción 24hs.">
+                        <img src="img/icon_desayuno.png" alt="icon desayuno" width="40px" style="padding-left: 10px;" title="Desayuno incluido">
+                        <img src="img/icon_restaurante.png" alt="icon restaurante" width="40px" style="padding-left: 10px;" title="Restaurante">
+                        <img src="img/icon_tarjetas.png" alt="icon tarjetas" width="40px" style="padding-left: 10px;" title="Trabajamos todas las tarjetas">
+                    </div>
+                </div>
+                <!--FIN ICONOS-->
+            </div>
+
+            <!--TOP-FIJO-->
+            <div class="wraper_top">
+                <div class="wraper_top_absoluto">
+                    <div class="top_fijo">
+                        <div class="brand">
+                            <a href="#">
+                                <img src="./img/logo_footer2-colorazul.png" width="150" alt="Hotel azul obera misiones">
+                            </a>
+                        </div>
+                        <div id="menu_top_content">
+                            <div class="menu">
+                                <div class="menu_desplegable">
+                                    <ul class="nav">
+                                        <li class="first Activo">
+                                            <a href="index.html" class="btn_menu btn_Activo">BIENVENIDOS</a>
+                                            <li class="first">
+                                                <a href="galeria.html" class="btn_menu">GALERÍA</a>
+                                                <li class="first">
+                                                    <a href="contacto.html" class="btn_menu" style="border-right:0">CONTACTO</a>
+                                                </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!--FIN TOP-FIJO-->
+
+                            <!--BUSCADOR HORIZONTAL-->
+                            <div class="buscador_horizontal">
+                                <div class="buscador_web">
+                                    <div class="ModuloWrap_reservadirecto">
+                                        <div id="reservadirecto"></div>
+                                    </div>
+                                    <div class="ModuloWrap_buscador_hotel_v2">
+                                        <div class="buscar_lp" style="text-align:center;">
+                                            <div class="buscar_lp_promotionaltext">Promoción 3 x 2</div>
+                                            <div class="buscar_lp_beforerate">antes de
+                                                <span class="TextBefore">$AR 2645</span>
+                                            </div>
+                                            <div class="wrap_precioahora">
+                                                <div class="buscar_lp_from pricefromnowon">ahora</div>
+                                                <div class="buscar_lp_promotionalrate">$AR 1763,00</div>
+                                            </div>
+                                            <div id="linea_form_lp"></div>
+                                            <div class="buscar_lp_formulario">
+                                                <span class="TituloFormulario">Fecha de viaje</span>
+                                                <div id="CrearPresupuesto" style="text-align:left;">
+                                                    <form action="" method="post" name="search_form" id="search_form" target="_self">
+                                                        <div class="fechas_ancho fechas_ancho_entrada">
+                                                            <div class="fechaintxt">Llegada</div>
+                                                            <div class="calendaricon">
+                                                                <i class="fa fa-calendar-o far fa-calendar-alt" aria-hidden="true"></i>
+                                                            </div>
+                                                            <input name="Start" id="fechaingreso" value="20/06/2019" class="imput_text_searchlist" placeholder="De">
+                                                        </div>
+                                                        <div class="fechas_ancho fechas_ancho_salida">
+                                                            <div class="fechaintxt">Salida</div>
+                                                            <div class="calendaricon">
+                                                                <i class="fa fa-calendar-o far fa-calendar-alt" aria-hidden="true"></i>
+                                                            </div>
+                                                            <input name="End" id="fechaegreso" value="21/06/2019" size="10" class="imput_text_searchlist relative maxzindex pointer" placeholder="Hasta">
+                                                        </div>
+                                                        <div id="NochesError" class="error"></div>
+                                                        <div class="nodisplay" id="Combinations">[{"Adults":"1","Childs":"0"},{"Adults":"2","Childs":"0"},{"Adults":"3","Childs":"0"},{"Adults":"4","Childs":"0"}]</div>
+                                                        <div class="wrap_PartyTypeSimulator">
+                                                            <div class="PartyTypeSimulator">
+                                                                <div class="SelectorInitial nodisplay" rel="single">
+                                                                    <span class="texto">Individual</span>
+                                                                    <span class="iconito"><i class="fa fa-user" aria-hidden="true"></i></span>
+                                                                </div>
+                                                                <div class="SelectorInitial" rel="double">
+                                                                    <span class="texto">Doble</span>
+                                                                    <span class="iconito"><i class="fa fa-user" aria-hidden="true"></i><i class="fa fa-user" aria-hidden="true"></i></span>
+                                                                </div>
+                                                                <div class="SelectorInitial nodisplay" rel="familiar">
+                                                                    <span class="texto">Familiar</span>
+                                                                    <span class="iconito"><i class="fa fa-user" aria-hidden="true"></i>
+                                                                                                <i class="fa fa-user hijito" aria-hidden="true"></i>
+                                                                                                <i class="fa fa-user" aria-hidden="true"></i>
+                                                                            </span>
+                                                                </div>
+                                                                <div class="SelectorInitial nodisplay" rel="multiple">
+                                                                    <span class="texto">Multiple</span>
+                                                                    <span class="iconito">
+                                                                                <span class="iconito"><i class="fa fa-users" aria-hidden="true"></i></span>
+                                                                    </span>
+                                                                </div>
+                                                                <div class="PartyTypeSimulatorSelect nodisplay">
+                                                                    <div class="Selector" rel="single">
+                                                                        <span class="texto">habitación Individual</span>
+                                                                        <span class="iconito"><i class="fa fa-user" aria-hidden="true"></i></span>
+                                                                    </div>
+                                                                    <div class="Selector" rel="double">
+                                                                        <span class="texto">habitación Doble</span>
+                                                                        <span class="iconito">
+                                                                                <i class="fa fa-user" aria-hidden="false"></i>
+                                                                                <i class="fa fa-user" aria-hidden="true"></i>
+                                                                                </span>
+                                                                    </div>
+                                                                    <div class="Selector" rel="multiple">
+                                                                        <span class="texto">Otras opciones</span>
+                                                                        <span class="iconito">
+                                                                                <i class="fa fa-users" aria-hidden="true"></i>
+                                                                                </span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <select name="PartyType" class="PartyTypeSelect nodisplay" id="PartyType">
+                                                                    <option value="single">Individual
+                                                                    <option value="double" selected="selected">Doble
+                                                                    <option value="familiar">Familiar
+                                                                    <option value="multiple">Multiple
+                                                                    </option>
+                                                                    </select>
+                                                            <div id="MultiplePartySelect" class="nodisplay">
+                                                                <div class="RoomsSelectContainer" roomnumber="1">
+                                                                    <div class="RoomNameContainer">habitación
+                                                                        <span id="RoomNumber">1</span>
+                                                                    </div>
+                                                                    <div class="hostContainer">
+                                                                        <div class="AdultsContainer">
+                                                                            <span class="texto">Huespedes</span>
+                                                                            <div class="AdultsSelectContainer">
+                                                                                <select class="AdultsSelect CalculateParty" onchange="CalculatePartyGroup(this)" roomnumber="1">
+                                                                                            <option value="1">1
+                                                                                            <option value="2" selected="selected">2
+                                                                                            <option value="3">3
+                                                                                            <option value="4">4
+                                                                                            </option>
+                                                                                        </select>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="ChildrensContainers nodisplay">
+                                                                            <span class="texto">Menores</span>
+                                                                            <div class="ChildrensSelectContainer">
+                                                                                <select class="ChildrensSelect CalculateParty" onchange="ChildrensSelect(this)" roomnumber="1">
+                                                                                            <option value="0">-</option>
+                                                                                        </select>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="ChildrensAges nodisplay" roomnumber="1">
+                                                                            <span class="texto">Edad de los Menores</span>
+                                                                            <div class="ChildrensAgesSelectContainer" roomnumber="1"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="RemoveRoom nodisplay">
+                                                                    <a class="RemoveRoomButton" roomnumber="1">Remover habitacion 
+                                                                                <i class="fa fa-minus" aria-hidden="true"></i>
+                                                                            </a>
+                                                                </div>
+                                                                <div class="AddNewRoom">
+                                                                    <button type="button">Añadir habitacion 
+                                                                                <i class="fa fa-plus" aria-hidden="true"></i>
+                                                                            </button>
+                                                                </div>
+                                                                <div class="NotValidChildrens nodisplay animated shake">
+                                                                    <i class="fa fa-exclamation" aria-hidden="true"></i> Seleccione edad para los niños por favor
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <input name="MaxRooms" type="hidden" id="MaxRooms" value="4">
+                                                        <input name="Nights" type="hidden" id="Nights">
+                                                        <input name="Channel" type="hidden" id="Channel" value="2">
+                                                        <input name="RateType" type="hidden" id="RateType" value="auto">
+                                                        <input name="Pos" type="hidden" id="Pos" value="Plaza">
+                                                        <input name="Lng" type="hidden" id="Lng" value="es">
+                                                        <input name="Currency" type="hidden" id="Currency" value="ARS">
+                                                        <input name="MaxAgeChildrenNumber" type="hidden" id="MaxAgeChildrenNumber" value="15">
+                                                        <input name="MaxAgeBabiesNumber" type="hidden" id="MaxAgeBabiesNumber" value="2">
+                                                        <input name="ReturnUrl" type="hidden" id="ReturnUrl" value="https://www.booking.com/hotel/ar/azul-apart-amp-spa.es.html">
+                                                        <input name="FromUrl" type="hidden" id="FromUrl" value="https://www.booking.com/hotel/ar/azul-apart-amp-spa.es.html">
+                                                        <input name="Source" id="Source" type="hidden" value="Contact Form">
+                                                        <input name="SearchID" type="hidden" id="SearchID" value="">
+                                                        <input name="FromPID" type="hidden" id="FromPID" value="2802">
+                                                        <input name="Type" type="hidden" id="Type" value="Hotel">
+                                                        <input name="ProductID" type="hidden" id="ProductID" value="2802">
+                                                        <input name="ListID" type="hidden" id="ListID" value="0">
+                                                        <input name="Location" type="hidden" id="Location" value="">
+                                                        <input name="Device" type="hidden" id="Device" value="Computer">
+                                                        <input name="UserID" type="hidden" id="UserID" value="">
+                                                        <input class="tag_cookie" name="Tag" type="hidden" id="Tag" value="">
+                                                        <input class="tag_cookie" name="tag" type="hidden" id="tag" value="">
+                                                        <input name="Email" type="hidden" id="Email" value="">
+                                                        <input name="UserType" type="hidden" id="UserType" value="">
+                                                        <input name="AgreementType" type="hidden" id="AgreementType" value="">
+                                                        <input name="GroupsForm" type="hidden" id="GroupsForm" value="1:2,0,0">
+                                                        <input name="SkuID" type="hidden" id="SkuID" value="">
+                                                        <div class="nodisplay" id="MinNightsError">El minimo de noches debe ser mayor o igual a 0</div>
+                                                        <input name="MinNights" type="hidden" id="MinNights" value="0">
+                                                        <input name="Widget" type="hidden" id="Widget" value="computer_buscador">
+                                                        <div class="innerboton">
+                                                            <a href="https://www.booking.com/hotel/ar/azul-apart-amp-spa.es.html">
+                                                                <button type="button" name="Acion_Search" id="Acion_Search" class="boton button_bucar">Ver Tarifas</button>
+                                                            </a>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="dataconfig" productid="2802" urldispo="id=2802&RateID=526&start=2019-06-20" class="nodisplay" lng="es" datepickerstart="0"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--TOP-MOVIL-->
+                <div class="wraper_top_fijo nodisplay animated slideInDown">
+                    <div class="top_fijo">
+                        <div class="brand">
+                            <a href="#"><img src="img/Hotel_Azul_logoazul2.png" width="100" alt="Hotel Azul" style="margin-top:15px"></a>
+                        </div>
+                        <div id="insert_menu_fijo"></div>
+                    </div>
+                </div>
+            </div>
+            <!--TOP-MOVIL-->
+
+
+            <!--BODY-->
+
+            <!--SLIDE -->
+            <div class="slide_home relative">
+                <div class="ModuloWrap_swiper">
+                    <div class="nodisplay" id="Fancy_Width" rel="800"></div>
+                    <div class="nodisplay" id="Fancy_Height" rel="600 "></div>
+                    <div class="swiper-container swiper-container-dispositivas" style="height:auto;width:100%;overflow:hidden">
+                        <div class="swiper-wrapper">
+                            <script>
+                                cargarImagenesSlide1()
+                            </script>
+                        </div>
+                        <div id="dataconfig-swiper" auto="1" speed="5000" style="display:none"></div>
+                    </div>
+                    <!--FIN SLIDE-->
+
+                    <!--SUBDOMINIOS-->
+                    <div class="menu">
+                        <div class="">
+                            <ul class="nav">
+                                <li class="">
+                                    <a href="http://azulhotelspa.com/subdominios/" class="btn btn-outline-primary" role="button">Restaurante</a>
+                                </li>
+                                <li class="">
+                                    <a href="http://azulhotelspa.com/spa/" class="btn btn-outline-secondary" role="button">SPA</a>
+                                </li>
+                                <li class="">
+                                    <a href="" class="btn btn-outline-success" role="button">Jardin</a>
+                                </li>
+                                <li class="">
+                                    <a href="" class="btn btn-outline-dark" role="button">Lavanderia</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--FIN SUBDOMINIOS-->
+
+                    <!--DIV FLOTANTE-->
+                    <div id="divflotante">
+                        <a href="https://api.whatsapp.com/send?phone=543755503580">
+                            <button type="button" class="btn btn-info">CHATEAR</button>
+                        </a>
+                    </div>
+                    <!--FIN DIV FLOTANTE-->
+
+                    <!--HABITACIONES-->
+                    <div class="wrap_contenido">
+                        <h1 class="Titulo">HABITACIONES</h1>
+                        <div class="ModuloWrap_habitaciones">
+                            <div class="TituloChico">Exclusivas y familiares</div>
+                            <div class="container">
+                                <img src="https://static.wixstatic.com/media/899a4c_b0574ded3ed843ada79632220df24c1f~mv2.png/v1/fill/w_75,h_75,al_c,q_80,usm_0.66_1.00_0.01/899a4c_b0574ded3ed843ada79632220df24c1f~mv2.webp" alt="caja fuerte" height="100px">
+
+                            </div>
+                            <div id="widget_sku_list">
+
+                                <!--HABITACION DOBLE-->
+                                <div class="ListItem">
+                                    <div class="ListItem_FotoGalery">
+                                        <div class="ListItem_FotoGalery_item_big">
+                                            <a style="" class="fancybox rollover" rel="./img/galerias/habitaciones/habitacionmatrimonial/1.jpg" href="./img/galerias/habitaciones/habitacionmatrimonial/1.jpg" data-fancybox-group="habitacionMatrimonial" data-width="100" data-height="100" title="">
+                                                <img class="imagenes_habitacion" src="./img/galerias/habitaciones/habitacionmatrimonial/1.jpg">
+                                            </a>
+                                            <script>
+                                                habitacionMatrimonialGaleria();
+                                            </script>
+                                        </div>
+                                    </div>
+                                    <div class="item_text">
+                                        <div class="ListItem_Titulos">HABITACIÓN DOBLE</div>
+                                        <div class="ListItem_Bajada">
+                                            <p class="parrafos">
+                                                Habitaciones Clásica matrimonial<br> aprox. 14m2, somier matrimonial<br> (de 1. 40 x 1. 80), baño con bidet<br> y ducha, TV, Aire Acondicionado,<br> calefacción, caja fuerte, frigobar.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--HABITACION DOBLE TWIN-->
+                                <div class="ListItem">
+                                    <div class="ListItem_FotoGalery">
+                                        <div class="ListItem_FotoGalery_item_big">
+                                            <a style="" class="fancybox rollover" rel="./img/galerias/habitaciones/habitaciondoble/1.jpg" href="./img/galerias/habitaciones/habitaciondoble/1.jpg" data-fancybox-group="habitacionDoble" data-width="100" data-height="100" title="">
+                                                <img class="imagenes_habitacion" src="./img/galerias/habitaciones/habitaciondoble/2.jpg">
+                                            </a>
+                                            <script>
+                                                habitacionDobleGaleria();
+                                            </script>
+                                        </div>
+                                    </div>
+                                    <div class="item_text">
+                                        <div class="ListItem_Titulos">HABITACIÓN DOBLE TWIN</div>
+                                        <div class="ListItem_Bajada">
+                                            <p class="parrafos">
+                                                Habitaciones Doble twin, de aprox. <br> 14 m2, de dos camas individuales <br> colchón sommier (0. 80 x 0. 80 mts), <br> TV, Aire Acondicionado/calefacción, <br> caja fuerte, frigobar.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--HABITACION TRIPLE-->
+                                <div class="ListItem">
+                                    <div class="ListItem_FotoGalery">
+                                        <div class="ListItem_FotoGalery_item_big">
+                                            <a style="" class="fancybox rollover" rel="./img/galerias/habitaciones/habitaciontriple/1.jpg" href="./img/galerias/habitaciones/habitaciontriple/1.jpg" data-fancybox-group="habitacionTriple" title="">
+                                                <img class="imagenes_habitacion" src="./img/galerias/habitaciones/habitaciontriple/1.jpg">
+                                            </a>
+                                            <script>
+                                                habitacionTripleGaleria();
+                                            </script>
+                                        </div>
+                                    </div>
+                                    <div class="item_text">
+                                        <div class="ListItem_Titulos">HABITACIÓN TRIPLE</div>
+                                        <div class="ListItem_Bajada">
+                                            <p class="parrafos">
+                                                Habitaciones triple, de aprox. 14m2, <br> somier matrimonial más una cama <br> individual, baño con bidet y ducha, <br> TV, Aire Acondicionado/calefacción, <br> caja fuerte, frigobar.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--HABITACION SUITE-->
+                                <div class="ListItem">
+                                    <div class="ListItem_FotoGalery">
+                                        <div class="ListItem_FotoGalery_item_big">
+                                            <a class="fancybox rollover" rel="./img/galerias/habitaciones/suite/1.jpg" href="./img/galerias/habitaciones/suite/1.jpg" data-fancybox-group="habitacionSuite" title="">
+                                                <img class="imagenes_habitacion" src="./img/galerias/habitaciones/suite/1.jpg">
+                                            </a>
+                                            <script>
+                                                habitacionSuiteGaleria();
+                                            </script>
+                                        </div>
+                                    </div>
+                                    <div class="item_text">
+                                        <div class="ListItem_Titulos">HABITACIÓN SUITE</div>
+                                        <div class="ListItem_Bajada">
+                                            <p class="parrafos">
+                                                Habitaciones Suite, de aproximadamente<br> 25m2, con somier matrimonial, jacuzzi,<br> hidromasaje, TV, Aire Acondicionado,<br> calefacción, caja fuerte, frigobar.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--APART-->
+                    <div class="container">
+                        <div id="div_apart" class="row">
+                            <div clas="col-md-1">
+                                <a class="fancybox rollover" rel="./img/galerias/apart/1.jpg" href="./img/galerias/apart/1.jpg" data-fancybox-group="habitacionApart" title="">
+                                    <img class="imagenes_apart1" src="./img/galerias/apart/1.jpg">
+                                </a>
+                                <script>
+                                    habitacionApartGaleria();
+                                </script>
+                            </div>
+                            <div clas="col-md-4 center">
+                                <div class="texto_apart">
+                                    <h4 class="ListItem_Titulos">APART</h4>
+                                    <p class="parrafos">
+                                        Apartamentos privados, cochera con salida directa, Cocina, comedor, 2 baños, 2 habitaciones. Totalmente equipados, TV, Aire Acondicionado, calefacción, caja fuerte, heladera.
+                                    </p>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <div class="row">
+                                        <img id="icon_mascotas" src="./img/IconoMascotitas1.png" alt="aceptamos mascotas">
+                                        <h5 id="texto_mascotas">Alojate con tu mascota</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div clas="col-md-1">
+                                <a class="fancybox rollover" rel="./img/galerias/apart/4.jpg" href="./img/galerias/apart/4.jpg" data-fancybox-group="habitacionApart" title="">
+                                    <img class="imagenes_apart2" src="./img/galerias/apart/4.jpg">
+                                </a>
+                                <script>
+                                    habitacionApartGaleria();
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+
+                    <!--SLIDE 2-->
+                    <div class="slide_home relative">
+                        <div class="ModuloWrap_swiper">
+                            <div class="nodisplay" id="Fancy_Width" rel="800"></div>
+                            <div class="nodisplay" id="Fancy_Height" rel="600 "></div>
+                            <div class="swiper-container swiper-container-dispositivas" style="height:auto;width:100%;overflow:hidden">
+                                <div class="swiper-wrapper">
+                                    <script>
+                                        cargarImagenesSlide2()
+                                    </script>
+                                    <div class="swiper-pagination swiper-pagination-dispositivas swiper-pagination-white"></div>
+                                    <div class="swiper-button-prev swiper-button-prev-dispositivas swiper-button-white"></div>
+                                    <div class="swiper-button-next swiper-button-next-dispositivas swiper-button-white"></div>
+                                </div>
+                                <div id="dataconfig-swiper" auto="1" speed="5000" style="display:none"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--FIN SLIDE 2-->
+
+
+                    <!--FIN BODY-->
+
+                    <!--FOOTER-->
+                    <div class="footer">
+                        <div class="row">
+
+                            <!--DIV PROMOS-->
+                            <div id="divpromo">
+                                <div class="swiper-container swiper-container-dispositivas" style="height:auto;width:100%;overflow:hidden">
+                                    <div class="swiper-wrapper">
+                                        <script>
+                                            promocionesGaleria();
+                                        </script>
+                                        <div class="swiper-pagination swiper-pagination-dispositivas swiper-pagination-white"></div>
+                                        <div class="swiper-button-prev swiper-button-prev-dispositivas swiper-button-white"></div>
+                                        <div class="swiper-button-next swiper-button-next-dispositivas swiper-button-white"></div>
+                                    </div>
+                                    <div id="dataconfig-swiper" auto="1" speed="500" style="display:none"></div>
+                                </div>
+                            </div>
+                            <!--FIN DIV PROMOS-->
+
+
+                            <div itemscope="itemscope" itemtype="http://schema.org/LocalBusiness" id="datos_footer" class="datosfooter">
+                                <span itemprop="name" class="titulodatos">HOTEL AZUL</span>
+                                <br>
+                                <div itemprop="address" itemscope="itemscope" itemtype="http://schema.org/PostalAddress">
+                                    <div class="full left">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <span itemprop="streetAddress">AV. DE LAS AMÉRICAS 924</span> |
+                                        <span itemprop="addressLocality">Misiones</span> |
+                                        <span itemprop="addressRegion">Argentina</span>
+                                    </div>
+                                </div>
+                                <div class="full left">
+                                    <i class="fa fa-phone" aria-hidden="true"></i> Teléfono:
+                                    <span itemprop="telephone"> +54 3755 405840</span>
+                                    <br>
+                                    <i class="fa fa-whatsapp" aria-hidden="true"></i> Whatsapp:
+                                    <span itemprop="telephone"> +54 9 3755 405840</span>
+                                    <br>
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    <span itemprop="email">reservas@azulhotelspa.com</span>
+                                    <br>
+                                    <br>
+                                </div>
+                                <div class="copyright" style="font-size:12px">Copyright Hotel Azul. Todos los derechos reservados.</div>
+                            </div>
+                            <div class="columna_right">
+                                <div class="redes">
+                                    <a href="https://www.facebook.com/AzulHotelSpa/" target="_blank">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="https://www.instagram.com/hotelazul.spa/" target="_blank">
+                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="https://www.tripadvisor.com.ar/Hotel_Review-g1207952-d1955684-Reviews-Azul_Hotel_Spa-Obera_Province_of_Misiones_Litoral.html" target="_blank">
+                                        <i class="fa fa-tripadvisor" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="https://goo.gl/maps/UecuQ9W7EEtwCqBc7">
+                            <img id="googlemaps" src="./img/google.png" alt="direccion hotel azul obera">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer_px">
+            <div class="wraper_footerpx flex-column flex-center">
+                <div class="texto_footerpx">*Este sitio utiliza cookies.
+                    <a target="_blank" rel="nofollow" href="cookiespolicies.html" class="footer_link">Política de cookies</a>
+                    <a target="_blank" rel="nofollow" href="terms.html?pos=Plaza" class="footer_link">Términos y Condiciones</a>
+                    <a target="_blank" rel="nofollow" href="policies.html?pos=Plaza" class="footer_link">Política de privacidad</a>
+                </div>
+                <div class="pxsol_link_f">
+                    <a target="_blank" href="https://www.mateweb.site" class="footer_link">
+                                Craado por <img src="./img/logo_mateweb_sombra.png" style="max-width: 100px;" alt="mateweb obera pagina web">
+                            </a>
+                    <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Carga de Style del sitio original-->
+    <script src="https://cdn.pxsol.com/js/domready.js"></script>
+    <script>
+        DomReady.ready(function() {
+            var e, s = document.getElementsByTagName("head")[0];
+            (e = document.createElement("link")).id = "siteCss", e.rel = "stylesheet", e.type = "text/css", e.href = "https://cdn.pxsol.com/css.css?pos=Plaza&device=computer", s.appendChild(e), (e = document.createElement("link")).id = "fawesome", e.rel = "stylesheet", e.type = "text/css", e.href = "https://use.fontawesome.com/releases/v5.7.1/css/all.css", s.appendChild(e)
+        })
+    </script>
+    <!-- Fin Carga de Style del sitio original-->
+
+    <div id="CortinaCargando" style="text-align: center" class="Loading nodisplay">
+        <div class="linear-activity">
+            <div class="indeterminate"></div>
+        </div>
+    </div>
+    <div id="dialogBox" title="..." class="nodisplay">
+        <p>
+            <span class="ui-icon ui-icon-alert alerticon"></span>...
+        </p>
+    </div>
+    <script src="https://cdn.pxsol.com/js.js?pos=Plaza&device=computer" defer="defer" async=""></script>
+    <div id="diccionario"></div>
+    </div>
+    <div class="EndError left full" style="max-width:100vw;overflow:auto">
+        <script>
+            console.log("%c 1", "background: #B6FD86; color: #000000;")
+        </script>
+        <script>
+            console.log("%c ARSARS", "background: #B6FD86; color: #000000;")
+        </script>
+        <script>
+            console.log("%c 1", "background: #B6FD86; color: #000000;")
+        </script>
+    </div>
+    </div>
+    <div id="dialogBox" title="..." class="nodisplay">
+        <p>
+            <span class="ui-icon ui-icon-alert alerticon"></span>...
+        </p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

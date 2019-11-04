@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+
+<head>
+    <!--HEAD-->
+    <html lang="es">
+    <!--meta name="viewport" content="width=500,max-width=500"-->
+    <meta name="viewport" content="width=1300,max-width=1300">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Cache-Control" content="Public">
+    <meta name="robots" content="index, follow">
+    <title>Hotel Azul</title>
+    <meta name="description" content="hotel alojamiento">
+    <meta property="og:url" content="http://www.azulhotelspa.com">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Hotel azul obera misiones">
+    <meta property="og:description" content="">
+    <!--estilos_hotelazul.css-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <link rel="shortcut icon" href="./img/logo_footer2-colorazul.png">
+
+    <link rel="icon" type="image/png" href="./img/logo_footer2-colorazul.png">
+
+    <script src="js/funcionesHotelAzulMovil.js"></script>
+</head>
+
+<body>
+
+    <div class="neo_megacontainer">
+        <div id="content">
+            <!--ANIMACION MIS RESERVAS-->
+            <div id="ContainerRD" class="nodisplay">
+                <div class="flex flex-center fullheight">
+                    <div id="ContainerRDInner">
+                        <div id="Loader" class="fullheight flex flex-center">
+                            <img class="animated slideInUp" src="http://bildbearbeitung.onl/images/ui/load1.gif">
+                        </div>
+                        <div id="CloseRDContainer">
+                            <i class="fa fa-times" aria-hidden="true"></i>
+                        </div>
+                        <iframe style="width:100%;height:100%" src="" id="IframeRD" scrolling="no"></iframe>
+                    </div>
+                </div>
+            </div>
+            <!--FIN ANIMACION MIS RESERVAS-->
+
+            <!--MIS RESERVAS-->
+            <div class="ModuloWrap_top_menu">
+                <div id="top_menu">
+                    <div id="contenedor_top">
+                        <div id="menu_div_top">
+                            <div class="nav_top">
+                                <div style="display:none" id="loaderTextDefault">Buscando</div>
+                                <div class="Sesion_top">
+                                    <a href="https://www.booking.com/hotel/ar/azul-apart-amp-spa.es.html?aid=376374;label=esrow-OtlvhU2CXhSVxek50Z_17wS267754636760%3Apl%3Ata%3Ap1%3Ap22.475.000%3Aac%3Aap1t1%3Aneg%3Afi%3Atiaud-294889294453%3Akwd-65526620%3Alp9040999%3Ali%3Adec%3Adm;sid=0db38b9b85aa9e47677305526dee5138;dest_id=-1005883;dest_type=city;dist=0;hapos=13;hpos=13;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1562096089;srpvid=63a089acb2bd0126;type=total;ucfs=1&#hotelTmpl"
+                                        ignorar-vista="true" target="_blank" class="btn_sesion">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i> Reservar
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--FIN MIS RESERVAS-->
+
+            <!--TELEFONO TOP-->
+            <div class="teltop">
+                <div class="icono">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                </div>
+                <div class="texto">+54 (03755) 405840</div>
+            </div>
+            <!--FIN TELEFONO TOP-->
+            <!--TOP-FIJO-->
+            <div class="wraper_top">
+                <div class="wraper_top_absoluto">
+                    <div class="top_fijo">
+                        <div class="brand">
+                            <a href="#">
+                                <img src="./img/logo_footer2-colorazul.png" width="150" alt="Hotel azul obera misiones">
+                            </a>
+                        </div>
+                        <div id="menu_top_content">
+                            <div class="menu">
+                                <div class="menu_desplegable">
+                                    <ul class="nav">
+                                        <li class="first Activo">
+                                            <a href="index.html" class="btn_menu btn_Activo">BIENVENIDOS</a>
+                                        </li>
+                                        <li class="first">
+                                            <a href="contacto.html" class="btn_menu" style="">CONTACTO</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--TOP-MOVIL-->
+                    <div class="wraper_top_fijo nodisplay animated slideInDown">
+                        <div class="top_fijo">
+                            <div class="brand">
+                                <a href="#"><img src="img/Hotel_Azul_logoazul2.png" width="100" alt="Hotel Azul" style="margin-top:15px"></a>
+                            </div>
+                            <div id="insert_menu_fijo"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--TOP-MOVIL-->
+
+
+            <!--BODY-->
+
+            <!--SLIDE -->
+            <div class="slide_home relative">
+                <div class="ModuloWrap_swiper">
+                    <div class="nodisplay" id="Fancy_Width" rel="800"></div>
+                    <div class="nodisplay" id="Fancy_Height" rel="600 "></div>
+                    <div class="swiper-container swiper-container-dispositivas" style="height:auto;width:100%;overflow:hidden">
+                        <div class="swiper-wrapper">
+                            <script>
+                                cargarImagenesSlide1()
+                            </script>
+                        </div>
+                        <div id="dataconfig-swiper" auto="1" speed="5000" style="display:none"></div>
+                    </div>
+                    <!--FIN SLIDE-->
+
+                    <!--SUBDOMINIOS-->
+                    <div class="menu">
+                        <div class="">
+                            <ul class="nav">
+                                <li class="">
+                                    <a href="http://azulhotelspa.com/subdominios/" class="btn btn-outline-primary" role="button">Restaurante</a>
+                                </li>
+                                <li class="">
+                                    <a href="http://azulhotelspa.com/spa/" class="btn btn-outline-secondary" role="button">SPA</a>
+                                </li>
+                                <li class="">
+                                    <a href="" class="btn btn-outline-success" role="button">Jardin</a>
+                                </li>
+                                <li class="">
+                                    <a href="" class="btn btn-outline-dark" role="button">Lavanderia</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--FIN SUBDOMINIOS-->
+
+                    <!--DIV FLOTANTE-->
+                    <div class="ModuloWrap_top_menu">
+                        <div id="top_menu">
+                            <div id="contenedor_top">
+                                <div id="menu_div_top">
+                                    <div class="nav_top">
+                                        <div style="display:none" id="loaderTextDefault">Buscando</div>
+                                        <div class="Sesion_top">
+                                            <a href="https://api.whatsapp.com/send?phone=543755503580" ignorar-vista="true" target="_blank" class="btn_sesion">
+                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i> Whatsapp
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--FIN DIV FLOTANTE-->
+
+                    <!--HABITACIONES-->
+                    <div class="wrap_contenido">
+                        <div class="ModuloWrap_habitaciones">
+                            <div class="TituloChico">Exclusivo y familiar</div>
+                            <div id="widget_sku_list">
+
+                                <!--HABITACION DOBLE-->
+                                <div class="ListItem">
+                                    <div class="ListItem_FotoGalery">
+                                        <div class="ListItem_FotoGalery_item_big">
+                                            <a style="" class="fancybox rollover" rel="./img/galerias/habitaciones/habitacionmatrimonial/1.jpg" href="./img/galerias/habitaciones/habitacionmatrimonial/1.jpg" data-fancybox-group="habitacionMatrimonial" data-width="100" data-height="100" title="">
+                                                <img class="imagenes_habitacion" src="./img/galerias/habitaciones/habitacionmatrimonial/1.jpg">
+                                            </a>
+                                            <script>
+                                                habitacionMatrimonialGaleria();
+                                            </script>
+                                        </div>
+                                    </div>
+                                    <div class="item_text">
+                                        <div class="ListItem_Titulos">HABITACIÓN DOBLE</div>
+                                        <div class="ListItem_Bajada">
+                                            <p class="parrafos">
+                                                Habitaciones Clásica matrimonial aprox. 14m2, somier matrimonial (de 1. 40 x 1. 80), baño con bidet y ducha, TV, Aire Acondicionado, calefacción, caja fuerte, frigobar.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--HABITACION DOBLE TWIN-->
+                                <div class="ListItem">
+                                    <div class="ListItem_FotoGalery">
+                                        <div class="ListItem_FotoGalery_item_big">
+                                            <a style="" class="fancybox rollover" rel="./img/galerias/habitaciones/habitaciondoble/1.jpg" href="./img/galerias/habitaciones/habitaciondoble/1.jpg" data-fancybox-group="habitacionDoble" data-width="100" data-height="100" title="">
+                                                <img class="imagenes_habitacion" src="./img/galerias/habitaciones/habitaciondoble/2.jpg">
+                                            </a>
+                                            <script>
+                                                habitacionDobleGaleria();
+                                            </script>
+                                        </div>
+                                    </div>
+                                    <div class="item_text">
+                                        <div class="ListItem_Titulos">HABITACIÓN DOBLE TWIN</div>
+                                        <div class="ListItem_Bajada">
+                                            <p class="parrafos">
+                                                Habitaciones Doble twin, de aprox. 14 m2, de dos camas individuales colchón sommier (0. 80 x 0. 80 mts), TV, Aire Acondicionado/calefacción, caja fuerte, frigobar.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--HABITACION TRIPLE-->
+                                <div class="ListItem">
+                                    <div class="ListItem_FotoGalery">
+                                        <div class="ListItem_FotoGalery_item_big">
+                                            <a style="" class="fancybox rollover" rel="./img/galerias/habitaciones/habitaciontriple/1.jpg" href="./img/galerias/habitaciones/habitaciontriple/1.jpg" data-fancybox-group="habitacionTriple" title="">
+                                                <img class="imagenes_habitacion" src="./img/galerias/habitaciones/habitaciontriple/1.jpg">
+                                            </a>
+                                            <script>
+                                                habitacionTripleGaleria();
+                                            </script>
+                                        </div>
+                                    </div>
+                                    <div class="item_text">
+                                        <div class="ListItem_Titulos">HABITACIÓN TRIPLE</div>
+                                        <div class="ListItem_Bajada">
+                                            <p class="parrafos">
+                                                Habitaciones triple, de aprox. 14m2, somier matrimonial más una cama individual, baño con bidet y ducha, TV, Aire Acondicionado/calefacción, caja fuerte, frigobar.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--HABITACION SUITE-->
+                                <div class="ListItem">
+                                    <div class="ListItem_FotoGalery">
+                                        <div class="ListItem_FotoGalery_item_big">
+                                            <a class="fancybox rollover" rel="./img/galerias/habitaciones/suite/1.jpg" href="./img/galerias/habitaciones/suite/1.jpg" data-fancybox-group="habitacionSuite" title="">
+                                                <img class="imagenes_habitacion" src="./img/galerias/habitaciones/suite/1.jpg">
+                                            </a>
+                                            <script>
+                                                habitacionSuiteGaleria();
+                                            </script>
+                                        </div>
+                                    </div>
+                                    <div class="item_text">
+                                        <div class="ListItem_Titulos">HABITACIÓN SUITE</div>
+                                        <div class="ListItem_Bajada">
+                                            <p class="parrafos">
+                                                Habitaciones Suite, de aproximadamente 25m2, con somier matrimonial, jacuzzi, hidromasaje, TV, Aire Acondicionado, calefacción, caja fuerte, frigobar.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--APART-->
+                                <div class="ListItem">
+                                    <div class="ListItem_FotoGalery">
+                                        <div class="ListItem_FotoGalery_item_big">
+                                            <a class="fancybox rollover" rel="./img/galerias/apart/1.jpg" href="./img/galerias/apart/1.jpg" data-fancybox-group="habitacionApart" title="">
+                                                <img class="imagenes_habitacion" src="./img/galerias/apart/1.jpg">
+                                            </a>
+                                            <script>
+                                                habitacionApartGaleria();
+                                            </script>
+                                        </div>
+                                    </div>
+                                    <div class="item_text">
+                                        <div class="ListItem_Titulos">APART</div>
+                                        <div class="ListItem_Bajada">
+                                            <p class="parrafos">
+                                                Apartamentos privados, cochera con salida directa, cocina, comedor, 2 baños, 2 habitaciones. Totalmente equipados, TV, Aire Acondicionado, calefacción, caja fuerte, heladera.
+                                            </p>
+                                            <div class="row">
+                                                <img id="icon_mascotas" src="./img/IconoMascotitas1.png" alt="aceptamos mascotas">
+                                                <h5 id="texto_mascotas">Alojate con tu mascota</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--SLIDE 2-->
+                    <div class="slide_home relative">
+                        <div class="ModuloWrap_swiper">
+                            <div class="nodisplay" id="Fancy_Width" rel="800"></div>
+                            <div class="nodisplay" id="Fancy_Height" rel="600 "></div>
+                            <div class="swiper-container swiper-container-dispositivas" style="height:auto;width:100%;overflow:hidden">
+                                <div class="swiper-wrapper">
+                                    <script>
+                                        cargarImagenesSlide2()
+                                    </script>
+                                    <div class="swiper-pagination swiper-pagination-dispositivas swiper-pagination-white"></div>
+                                    <div class="swiper-button-prev swiper-button-prev-dispositivas swiper-button-white"></div>
+                                    <div class="swiper-button-next swiper-button-next-dispositivas swiper-button-white"></div>
+                                </div>
+                                <div id="dataconfig-swiper" auto="1" speed="5000" style="display:none"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--FIN SLIDE 2-->
+
+
+                    <!--FIN BODY-->
+
+                    <!--FOOTER-->
+                    <div class="footer">
+                        <div class="row">
+
+                            <!--DIV PROMOS-->
+                            <div id="divpromo">
+                                <div class="swiper-container swiper-container-dispositivas" style="height:auto;width:100%;overflow:hidden">
+                                    <div class="swiper-wrapper">
+                                        <script>
+                                            promocionesGaleria();
+                                        </script>
+                                        <div class="swiper-pagination swiper-pagination-dispositivas swiper-pagination-white"></div>
+                                        <div class="swiper-button-prev swiper-button-prev-dispositivas swiper-button-white"></div>
+                                        <div class="swiper-button-next swiper-button-next-dispositivas swiper-button-white"></div>
+                                    </div>
+                                    <div id="dataconfig-swiper" auto="1" speed="500" style="display:none"></div>
+                                </div>
+                            </div>
+                            <!--FIN DIV PROMOS-->
+
+
+                            <div itemscope="itemscope" itemtype="http://schema.org/LocalBusiness" id="" class="col-12">
+                                <span itemprop="name" class="col-12 center">HOTEL AZUL</span>
+
+                                <div itemprop="address" itemscope="itemscope" itemtype="http://schema.org/PostalAddress">
+                                    <div class="col-12">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <span itemprop="streetAddress">AV. DE LAS AMÉRICAS 924</span> |
+                                        <span itemprop="addressLocality">Misiones</span> |
+                                        <span itemprop="addressRegion">Argentina</span>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <i class="fa fa-phone" aria-hidden="true"></i> Teléfono:
+                                    <span itemprop="telephone"> +54 3755 405840</span>
+
+                                    <i class="fa fa-whatsapp" aria-hidden="true"></i> Whatsapp:
+                                    <span itemprop="telephone"> +54 9 3755 405840</span>
+
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    <span itemprop="email">reservas@azulhotelspa.com</span>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="redes">
+                                    <a href="https://www.facebook.com/AzulHotelSpa/" target="_blank">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="https://www.instagram.com/hotelazul.spa/" target="_blank">
+                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="https://www.tripadvisor.com.ar/Hotel_Review-g1207952-d1955684-Reviews-Azul_Hotel_Spa-Obera_Province_of_Misiones_Litoral.html" target="_blank">
+                                        <i class="fa fa-tripadvisor" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="https://goo.gl/maps/UecuQ9W7EEtwCqBc7">
+                            <img id="googlemaps" src="./img/google.png" alt="direccion hotel azul obera">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer_px">
+            <div class="wraper_footerpx flex-column flex-center">
+                <div class="col-12">*Este sitio utiliza cookies.
+                    <a target="_blank" rel="nofollow" href="cookiespolicies.html" class="footer_link">Política de cookies</a>
+                    <a target="_blank" rel="nofollow" href="terms.html?pos=Plaza" class="footer_link">Términos y Condiciones</a>
+                    <a target="_blank" rel="nofollow" href="policies.html?pos=Plaza" class="footer_link">Política de privacidad</a>
+                </div>
+                <div class="pxsol_link_f">
+                    <a target="_blank" href="https://www.mateweb.site" class="footer_link">
+                                Craado por <img src="./img/logo_mateweb_sombra.png" style="max-width: 100px;" alt="mateweb obera pagina web">
+                            </a>
+                    <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Carga de Style del sitio original-->
+    <!-- Fin Carga de Style del sitio original-->
+
+    <div id="CortinaCargando" style="text-align: center" class="Loading nodisplay">
+        <div class="linear-activity">
+            <div class="indeterminate"></div>
+        </div>
+    </div>
+    <div id="dialogBox" title="..." class="nodisplay">
+        <p>
+            <span class="ui-icon ui-icon-alert alerticon"></span>...
+        </p>
+    </div>
+    <div id="dialogBox" title="..." class="nodisplay">
+        <p>
+            <span class="ui-icon ui-icon-alert alerticon"></span>...
+        </p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
